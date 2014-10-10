@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DF3738719E8816D005E1721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3738619E8816D005E1721 /* main.m */; };
+		5DF3738A19E8816D005E1721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3738919E8816D005E1721 /* AppDelegate.m */; };
+		5DF3738D19E8816D005E1721 /* SpickleVoteScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3738C19E8816D005E1721 /* SpickleVoteScene.m */; };
+		5DF3739219E8816D005E1721 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3739119E8816D005E1721 /* GameViewController.m */; };
+		5DF3739519E8816D005E1721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF3739319E8816D005E1721 /* Main.storyboard */; };
+		5DF3739719E8816D005E1721 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF3739619E8816D005E1721 /* Images.xcassets */; };
+		5DF3739A19E8816D005E1721 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF3739819E8816D005E1721 /* LaunchScreen.xib */; };
+		5DF373A619E8816D005E1721 /* spickleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF373A519E8816D005E1721 /* spickleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DF373A019E8816D005E1721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF3737919E8816D005E1721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF3738019E8816D005E1721;
+			remoteInfo = spickle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DF3738119E8816D005E1721 /* spickle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spickle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF3738519E8816D005E1721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF3738619E8816D005E1721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DF3738819E8816D005E1721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DF3738919E8816D005E1721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DF3738B19E8816D005E1721 /* SpickleVoteScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpickleVoteScene.h; sourceTree = "<group>"; };
+		5DF3738C19E8816D005E1721 /* SpickleVoteScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpickleVoteScene.m; sourceTree = "<group>"; };
+		5DF3739019E8816D005E1721 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5DF3739119E8816D005E1721 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5DF3739419E8816D005E1721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DF3739619E8816D005E1721 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5DF3739919E8816D005E1721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5DF3739F19E8816D005E1721 /* spickleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spickleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF373A419E8816D005E1721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF373A519E8816D005E1721 /* spickleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spickleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DF3737E19E8816D005E1721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF3739C19E8816D005E1721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DF3737819E8816D005E1721 = {
+			isa = PBXGroup;
+			children = (
+				5DF3738319E8816D005E1721 /* spickle */,
+				5DF373A219E8816D005E1721 /* spickleTests */,
+				5DF3738219E8816D005E1721 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DF3738219E8816D005E1721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF3738119E8816D005E1721 /* spickle.app */,
+				5DF3739F19E8816D005E1721 /* spickleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DF3738319E8816D005E1721 /* spickle */ = {
+			isa = PBXGroup;
+			children = (
+				5DF3738819E8816D005E1721 /* AppDelegate.h */,
+				5DF3738919E8816D005E1721 /* AppDelegate.m */,
+				5DF3738B19E8816D005E1721 /* SpickleVoteScene.h */,
+				5DF3738C19E8816D005E1721 /* SpickleVoteScene.m */,
+				5DF3739019E8816D005E1721 /* GameViewController.h */,
+				5DF3739119E8816D005E1721 /* GameViewController.m */,
+				5DF3739319E8816D005E1721 /* Main.storyboard */,
+				5DF3739619E8816D005E1721 /* Images.xcassets */,
+				5DF3739819E8816D005E1721 /* LaunchScreen.xib */,
+				5DF3738419E8816D005E1721 /* Supporting Files */,
+			);
+			path = spickle;
+			sourceTree = "<group>";
+		};
+		5DF3738419E8816D005E1721 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF3738519E8816D005E1721 /* Info.plist */,
+				5DF3738619E8816D005E1721 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DF373A219E8816D005E1721 /* spickleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DF373A519E8816D005E1721 /* spickleTests.m */,
+				5DF373A319E8816D005E1721 /* Supporting Files */,
+			);
+			path = spickleTests;
+			sourceTree = "<group>";
+		};
+		5DF373A319E8816D005E1721 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF373A419E8816D005E1721 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DF3738019E8816D005E1721 /* spickle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF373A919E8816D005E1721 /* Build configuration list for PBXNativeTarget "spickle" */;
+			buildPhases = (
+				5DF3737D19E8816D005E1721 /* Sources */,
+				5DF3737E19E8816D005E1721 /* Frameworks */,
+				5DF3737F19E8816D005E1721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spickle;
+			productName = spickle;
+			productReference = 5DF3738119E8816D005E1721 /* spickle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DF3739E19E8816D005E1721 /* spickleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF373AC19E8816D005E1721 /* Build configuration list for PBXNativeTarget "spickleTests" */;
+			buildPhases = (
+				5DF3739B19E8816D005E1721 /* Sources */,
+				5DF3739C19E8816D005E1721 /* Frameworks */,
+				5DF3739D19E8816D005E1721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF373A119E8816D005E1721 /* PBXTargetDependency */,
+			);
+			name = spickleTests;
+			productName = spickleTests;
+			productReference = 5DF3739F19E8816D005E1721 /* spickleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DF3737919E8816D005E1721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Joel Seligstein";
+				TargetAttributes = {
+					5DF3738019E8816D005E1721 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5DF3739E19E8816D005E1721 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5DF3738019E8816D005E1721;
+					};
+				};
+			};
+			buildConfigurationList = 5DF3737C19E8816D005E1721 /* Build configuration list for PBXProject "spickle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DF3737819E8816D005E1721;
+			productRefGroup = 5DF3738219E8816D005E1721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DF3738019E8816D005E1721 /* spickle */,
+				5DF3739E19E8816D005E1721 /* spickleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DF3737F19E8816D005E1721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF3739A19E8816D005E1721 /* LaunchScreen.xib in Resources */,
+				5DF3739719E8816D005E1721 /* Images.xcassets in Resources */,
+				5DF3739519E8816D005E1721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF3739D19E8816D005E1721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DF3737D19E8816D005E1721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF3739219E8816D005E1721 /* GameViewController.m in Sources */,
+				5DF3738A19E8816D005E1721 /* AppDelegate.m in Sources */,
+				5DF3738D19E8816D005E1721 /* SpickleVoteScene.m in Sources */,
+				5DF3738719E8816D005E1721 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF3739B19E8816D005E1721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF373A619E8816D005E1721 /* spickleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DF373A119E8816D005E1721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DF3738019E8816D005E1721 /* spickle */;
+			targetProxy = 5DF373A019E8816D005E1721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DF3739319E8816D005E1721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF3739419E8816D005E1721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DF3739819E8816D005E1721 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF3739919E8816D005E1721 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DF373A719E8816D005E1721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DF373A819E8816D005E1721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DF373AA19E8816D005E1721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = spickle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DF373AB19E8816D005E1721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = spickle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DF373AD19E8816D005E1721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = spickleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spickle.app/spickle";
+			};
+			name = Debug;
+		};
+		5DF373AE19E8816D005E1721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = spickleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spickle.app/spickle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DF3737C19E8816D005E1721 /* Build configuration list for PBXProject "spickle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF373A719E8816D005E1721 /* Debug */,
+				5DF373A819E8816D005E1721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF373A919E8816D005E1721 /* Build configuration list for PBXNativeTarget "spickle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF373AA19E8816D005E1721 /* Debug */,
+				5DF373AB19E8816D005E1721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DF373AC19E8816D005E1721 /* Build configuration list for PBXNativeTarget "spickleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF373AD19E8816D005E1721 /* Debug */,
+				5DF373AE19E8816D005E1721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DF3737919E8816D005E1721 /* Project object */;
+}
